@@ -1,0 +1,9 @@
+let main () =
+    let sum = 0
+
+    // Specifying inclusivity with <, = and > is required.
+    for i in 0<..=10 run
+        sum := sum + i
+    
+    io::display sum
+

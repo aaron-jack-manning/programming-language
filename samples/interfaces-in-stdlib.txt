@@ -1,0 +1,10 @@
+module op
+    sig (+) add(x : 'a, y : 'b) -> 'c
+    sig (-) sub(x : 'a, y : 'b) -> 'c
+
+module mem
+    sig alloc() -> &'a
+    sig free(to_free : &'a)
+
+module io
+    sig display(to_display : 'a)

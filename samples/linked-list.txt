@@ -1,0 +1,12 @@
+type 'a LinkedList =
+    | Nil
+    | Cons : ('a, &'a LinkedList)
+
+// Unliked F#/OCaml, no annotation for recursive functions is required as shadowing is not a feature.
+let sum (list : &'a LinkedList) -> 'a =
+    match list
+    | Nil -> 
+        0
+    | Cons (x, xs) ->
+        x + sum (xs)
+

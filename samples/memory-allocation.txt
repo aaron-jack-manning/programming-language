@@ -1,0 +1,25 @@
+type Point = {
+    x : Float
+    y : Float
+}
+
+let add(a : Point, b : Point) -> Point =
+    Point {
+        x = a.x + b.x
+        y = a.y + b.y
+    }
+
+let main () =
+    let p : &Point = mem::alloc()
+    p.x = 1
+    p.y = 2
+
+    let q = Point {
+        x = 2
+        y = 3
+    }
+
+    let r = (*p) + q
+    
+    mem::dealloc(p)
+
