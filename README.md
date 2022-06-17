@@ -13,33 +13,13 @@ This repository is a set of ideas, which will ultimately become a more thorough 
 
 ## Sample Programs
 
-### Hello, World!
-
-![hello-world](samples/hello-world.txt)
-
-### Recursive Factorial
-
-![recursive-factorial](samples/recursive-factorial.txt)
-
-### Linked List
-
-![linked-list](samples/linked-list.md)
-
-### For Loop
-
-![for-loop](samples/for-loop.md)
-
-### While Loop
-
-![while-loop](samples/while-loop.md)
-
-### Memory Allocation
-
-![memory-allocation](samples/memory-allocation.txt)
-
-### Interfaces in Stdlib
-
-![interfaces-in-stdlib](samples/interfaces-in-stdlib.txt)
+- [Hello, World!](samples/hello-world.txt)
+- [Recursive Factorial](samples/recursive-factorial.txt)
+- [Linked List](samples/linked-list.md)
+- [For Loop](samples/for-loop.md)
+- [While Loop](samples/while-loop.md)
+- [Memory Allocation](samples/memory-allocation.txt)
+- [Interfaces in Stdlib](samples/interfaces-in-stdlib.txt)
 
 ## Detailed Notes on Specific Things
 
